@@ -1,0 +1,160 @@
+/* Test css */
+
+/* Sharing Link */
+
+/* Google Fonts css */
+@import url('google_fonts.css');
+
+/* Html,Body */
+
+html {
+    /* basic setting */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Imagine Html */
+html::before {
+    content: "";
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #41c38082;
+}
+
+/* Finish Imagine Html */
+
+body {
+    /* image setting */
+    background-image: url('/image/background.jpg');
+    background-position: center;
+    background-size: cover;
+    /* position setting */
+    position: relative;
+}
+
+/* Container */
+
+.container {
+    /* basic setting */
+    width: 20em;
+    margin: 5em auto 0 auto;
+    padding: .75em;
+
+    /* Decorate */
+    background-color: #252424;
+    border-radius: 1.5%;
+    border: .09em solid #347858;
+
+    /* position middle setting */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Effect */
+    transition: background-color 1s;
+}
+
+/* Mouse Hover Effect */
+.container:hover {
+    /* basic setting */
+    background-color: #252424e3;
+    /* Effect */
+    transition: background-color 1s;
+}
+
+/* Finish Mouse Hover Effect */
+
+/* Profile */
+
+.profile {
+    /* basic setting */
+    width: 6em;
+    height: 6em;
+    /* image style */
+    border-radius: 100%;
+    border: .12em solid #247852;
+    /* image setting */
+    background-image: url('/image/profile.jpg');
+    background-position: center;
+    background-size: cover;
+    /* Position Setting */
+    margin-top: .75em;
+}
+
+/* Finish Profile */
+
+/* profile_name */
+
+.profile_name {
+    /* basic setting */
+    color: #ffffff;
+    font-size: 1.85em;
+    font-family: 'Merriweather', serif;
+
+    /* position setting */
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+/* Finish profile_name */
+
+/* profile_text */
+
+.profile_text {
+    /* basic setting */
+    color: #ffffff;
+    font-size: 1.35em;
+    font-family: 'Ubuntu', sans-serif;
+
+    /* position setting */
+    margin-top: 0;
+    margin-bottom: 1.25em;
+}
+
+/* Link (a tag) */
+
+.container > a {
+    /* basic setting */
+    width: 18em;
+    height: 3em;
+    /* Decorate */
+    color: #09251e;
+    background-color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Position setting */
+    border-radius: .5em;
+    margin-bottom: 1em;
+    /* font style */
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-decoration: none;
+    /* position middle setting */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: scale 1s;
+}
+
+/* Link Mouse Hover Effect (a tag) */
+.container > a:hover {
+    /* Effect style */
+    scale: 1.1;
+    transition: scale 1s;
+}
+
+/* Finish Link */
+
+/* Finish profile_text */
+
+/* Finsih Container */
+
+/* Finish Body */

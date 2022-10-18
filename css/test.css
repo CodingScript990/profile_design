@@ -118,9 +118,27 @@ body {
     margin-bottom: 1.25em;
 }
 
+/* Modal (JS) */
+
+#video_modal {
+    /* basic Setting */
+    top: 0;
+    left: 0;
+    /* modal size */
+    width: 100%;
+    height: 100%;
+    /* position setting */
+    position: absolute;
+    /* Decorate */
+    display: none;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+/* Finish Modal */
+
 /* Link (a tag) */
 
-.container > a {
+.container > .video {
     /* basic setting */
     width: 18em;
     height: 3em;
@@ -145,7 +163,10 @@ body {
 }
 
 /* Link Mouse Hover Effect (a tag) */
-.container > a:hover {
+.container > .video:hover {
+    /* basic setting */
+    color: #ffffff;
+    background-color: #2ba870dd;
     /* Effect style */
     scale: 1.1;
     transition: scale 1s;

@@ -178,4 +178,16 @@ body {
 
 /* Finsih Container */
 
+/* Footer */
+
+footer > p {
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.75;
+    font-weight: bolder;
+    font-size: 1.125em;
+}
+
+/* Finish Footer */
+
 /* Finish Body */
